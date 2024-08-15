@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Rave Runner's room</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    .custom-hashtag-btn {
+      background-color: gray;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  
+    .custom-hashtag-btn:hover {
+      background-color: darkgray;
+    }
+  </style>
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Rave Runner's room
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Running Routes.html"> Running Routes </a>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Playlist.html"> Playlist</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html"> Contact Us</a>
+                </li>
+              </ul>
+              <div class="user_option">
+                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <!-- Us section -->
+
+
+
+  <section class="us_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Running Routes
+          <small style="display: block; font-size: 12px; color: white;">Directions are provided based on Google Maps. </small>
+          <small style="display: block; font-size: 12px; color: red;">*For South Korea, directions are provided via Naver Maps due to issues with North Korea.</small>
+          <small style="display: block; font-size: 12px; color: white;">구글맵을 기준으로 안내합니다. </small>
+          <small style="display: block; font-size: 12px; color: red;">*한국의 경우, 북한 문제로 인하여 네이버지도로 안내합니다.</small>
+        </h2>
+      </div>
+      
+      <!-- 해시태그 버튼과 검색창 추가 -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8" id="hashtag-buttons-container">
+            <!-- 해시태그 버튼이 여기에 동적으로 추가됩니다 -->
+          </div>
+          <div class="col-md-4">
+            <input type="text" id="search-box" class="form-control" placeholder="Search by hashtag">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 emoji-explanation">
+            <small>🅿️: Parking available 주차 가능</small>
+            <small>🎢: Includes hills 언덕 포함</small>
+            <small>🚦: Many traffic lights 신호 많음</small>
+            <small>🔄: Loop trail 원점 복귀</small>
+          </div>
+        </div>
+      </div>
+      
+      <div class="us_container ">
+        <div class="row">
+          <!--<div class="col-lg-3 col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/u-1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Curated Running Routes
+                </h5>
+                <p>
+                  Discover the best running routes from around the world. Whether you prefer scenic trails, urban landscapes, or challenging terrains, we have something for everyone. <br> 전 세계 최고의 러닝 코스를 발견하세요. 아름다운 자연 경관, 도시의 풍경, 도전적인 지형 등 여러분의 취향에 맞는 다양한 코스를 준비했습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/u-4.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Music Recommendations
+                </h5>
+                <p>
+                  Find the perfect playlist for your run. Our friends have curated music selections designed to match the tempo and mood of your run, helping you stay motivated and energized. <br> 달리기를 위한 완벽한 플레이리스트를 찾아보세요. 우리의 친구들이 큐레이션한 음악들은 여러분의 달리기 템포와 기분에 맞춰져 있어, 더욱 동기부여되고 활력 넘치는 러닝을 할 수 있습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/u-2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Latest Running News
+                </h5>
+                <p>
+                  Stay updated with the latest news and trends in the running world. Get insights on upcoming events, new gear, and training tips.<br> 러닝 세계의 최신 뉴스와 트렌드를 확인하세요. 다가오는 이벤트, 새로운 장비, 트레이닝 팁에 대한 인사이트를 제공합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/u-3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Community
+                </h5>
+                <p>
+                  Join a global community of like-minded runners. Share your favorite routes, playlists, and experiences with others who share your passion for running and music. <br>전 세계의 러너들과 함께하세요. 좋아하는 코스, 플레이리스트, 경험을 공유하고, 달리기와 음악에 대한 열정을 나누는 사람들과 교류하세요.
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!--  이모지 예시. 복붙해서 쓰기
+                <p>
+                  <span class="emoji">🎢</span> 언덕 포함
+                  <span class="emoji">🚦</span> 신호 많음
+                  <span class="emoji">🅿️</span> 주차 가능
+                  <span class="emoji">🔄</span> 원점 복귀
+                </p>
+          -->
+
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Seoul">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://map.naver.com/p/directions/14138571.4398132,4511626.5484855,%EC%9E%A0%EC%9B%90%20%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%906%EC%A3%BC%EC%B0%A8%EC%9E%A5,1603062201,PLACE_POI/14138359.2314679,4511670.548276,%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%EC%84%9C%EC%9A%B8%EC%9B%A8%EC%9D%B4%EB%B8%8C%EC%95%84%ED%8A%B8%EC%84%BC%ED%84%B0%EC%A0%90,1264577661,PLACE_POI/14137189.3638072,4511067.3251477,%EC%9E%A0%EC%88%98%EA%B5%90,18762982,PLACE_POI:14137852.0709998,4512503.3791763,%EB%B3%B4%EA%B4%91%EB%82%98%EB%93%A4%EB%AA%A9,18733801,PLACE_POI:14137189.3638072,4511067.3251477,%EC%9E%A0%EC%88%98%EA%B5%90,18762982,PLACE_POI/walk?c=16.20,0,0,0,dh" style="display: flex; gap: 10px;">
+                  <img src="images/flag-south-korea_1f1f0-1f1f7.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/river.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Han River run
+                </h5>
+                <p>
+                  Enjoy running along the 'Han River', going back and forth across the beautiful 'Jamsu Bridge'. Additionally, it's convenient as parking is available.<br>아름다운 '잠수교'를 오고가며, '한강'에서의 달리기를 만끽해보세요. 또한 주차장을 이용할 수 있어 편리합니다.
+                </p>
+                <div>
+                  <p>#Seoul</p>
+                  <p>Total distance: 6.5km</p>
+                  <p>
+                    <span class="emoji">🅿️</span> 
+                    <span class="emoji">🔄</span> 
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Frankfurt">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://www.google.co.kr/maps/dir/''/Deutschherrnbr%C3%BCcke/Holbeinsteg/50.1050677,8.6713863/@50.1019779,8.6691761,16z/data=!4m21!4m20!1m5!1m1!1s0x47bd0d7ab2b3d881:0xa4d65043672f29a6!2m2!1d8.6714533!2d50.1049913!1m5!1m1!1s0x47bd0e9d28c05cf5:0xb2c0db6451ef446a!2m2!1d8.705351!2d50.1068481!1m5!1m1!1s0x47bd0c0177ff762f:0xf68eccedbea5e471!2m2!1d8.6719294!2d50.1039924!1m0!3e2?hl=ko&entry=ttu" style="display: flex; gap: 10px;">
+                  <img src="images/flag-germany_1f1e9-1f1ea.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/goose_1fabf.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Goose Run
+                </h5>
+                <p>
+                  Enjoy a refreshing run along the Main River, crossing beautiful bridges while adorable families of geese play around. <br>귀여운 거위 가족들이 노니는 마인강에서 아름다운 다리들을 건너며 상쾌한 런닝을 해보세요.
+                </p>
+                <div>
+                  <p>#Frankfurt</p>
+                  <p>Total distance: 5.8km</p>
+                  <p>
+                    <span class="emoji">🔄</span> 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Tokyo">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://www.google.co.kr/maps/dir/%EC%8B%9C%EA%B3%84%ED%83%91/Chair+Disappears+in+the+Rain+%E3%80%8C%E9%9B%A8%E3%81%AB%E6%B6%88%E3%81%88%E3%82%8B+%E6%A4%85%E5%AD%90%E3%80%8D%E5%90%89%E5%B2%A1%E5%BE%B3%E4%BB%81/''/%EB%8F%84%EC%BF%84+%ED%83%80%EC%9B%8C+%E6%9D%B1%E4%BA%AC%E3%82%BF%E3%83%AF%E3%83%BC/7-Eleven+%E3%82%BB%E3%83%96%E3%83%B3-%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3+%E6%B8%AF+%E5%8C%BA%E5%8D%97%E9%9D%92%E5%B1%B13%E4%B8%81%E7%9B%AE%E5%BA%97/35.6691525,139.7007647/@35.6624269,139.7029207,14z/am=t/data=!3m2!4b1!5s0x60188b61e8bd9e65:0xebfa3f0da3221d61!4m38!4m37!1m5!1m1!1s0x60188cb01936530f:0x93dcfb878a734199!2m2!1d139.7007898!2d35.6690816!1m5!1m1!1s0x60188b8cf4a3b4eb:0xa2d689f293d68b79!2m2!1d139.7316393!2d35.6592781!1m5!1m1!1s0x60188bbc6f49cf31:0xb0225b39e17c4d51!2m2!1d139.7455083!2d35.6555329!1m5!1m1!1s0x60188bbd9009ec09:0x481a93f0d2a409dd!2m2!1d139.7454329!2d35.6585805!1m10!1m1!1s0x60188b61c32d1793:0x5795b9399858e5e5!2m2!1d139.7156142!2d35.665108!3m4!1m2!1d139.7130634!2d35.665524!3s0x60188c9fdad3ffe9:0x542b196e6e6733a7!1m0!3e2?hl=ko&entry=ttu" style="display: flex; gap: 10px;">
+                  <img src="images/flag-japan_1f1ef-1f1f5.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/tokyo-tower_1f5fc.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Tower Run
+                </h5>
+                <p>
+                  From Yoyogi Park to Tokyo Tower! Run through the beautiful cityscape and sprint up the incline of Tokyo Tower!<br>요오기 공원에서 도쿄타워까지! 아름다운 도심을 달리다가 도쿄타워의 오르막에서 전력질주를 해보세요!
+                </p>
+                <div>
+                  <p>#Tokyo</p>
+                  <p>Total distance: 10.5km</p>
+                  <p>
+                    <span class="emoji">🎢</span>
+                    <span class="emoji">🔄</span> 
+                    <span class="emoji">🚦</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Sicily">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://www.google.com/maps/dir/''/Corso+Francesco+Durante+1/Isola+Bella/@37.8627656,15.2778351,14z/data=!3m2!4b1!5s0x1314119d5cc51be3:0x603b0e0d6929bd8f!4m20!4m19!1m5!1m1!1s0x1314119d5cb5ce51:0xafbb370da5fe5a2f!2m2!1d15.3001692!2d37.8556533!1m5!1m1!1s0x13141167d83ca661:0x57e7732b88e9e6f3!2m2!1d15.3015242!2d37.8749177!1m5!1m1!1s0x1314119cd875773d:0x427fa3d25138e7db!2m2!1d15.3001048!2d37.8505475!3e2?hl=ko&entry=ttu" style="display: flex; gap: 10px;">
+                  <img src="images/flag-italy_1f1ee-1f1f9.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/beach-with-umbrella_1f3d6-fe0f.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Isola Run
+                </h5>
+                <p>
+                  Run towards Isola Bella, the most beautiful island in Sicily, while enjoying the stunning views of the beach.<br>아름다운 해변을 감상하며 시칠리아의 가장 아름다운 섬 이졸라 벨라를 향해 뛰어 보세요!
+                </p>
+                <div>
+                  <p>#Sicily</p>
+                  <p>Total distance: 5.8km</p>
+                  <p>
+                    <span class="emoji">🎢</span> 
+                    <span class="emoji">🅿️</span> 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Busan">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://map.naver.com/p/directions/14374832.8657869,4184946.4000678,%EC%88%98%EB%B3%80%EA%B3%B5%EC%9B%90%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5,589750246,PLACE_POI/14372954.5831507,4182648.0018667,%EB%82%A8%EC%B2%9C%EB%8F%99%EB%A7%A4%EB%A6%BD%EC%A7%80%EB%B0%A9%ED%8C%8C%EC%A0%9C,37825428,PLACE_POI/14374083.4963707,4184725.247034,%ED%99%8D%EC%9C%A0%EB%8B%A8%20%EA%B4%91%EC%95%88%EC%A0%90,38411440,PLACE_POI:14373298.4156619,4182921.5094857,%EB%B6%80%EC%82%B0%20%EC%88%98%EC%98%81%EA%B5%AC%20%EB%82%A8%EC%B2%9C%EB%8F%99%20148-8,,ADDRESS_POI:14373167.8267672,4182896.8837223,%EC%82%BC%EC%9D%B5%EB%B9%84%EC%B9%98%ED%83%80%EC%9A%B4%EC%95%84%ED%8C%8C%ED%8A%B8%ED%9B%84%EB%AC%B8,17072374,PLACE_POI/walk?c=14.00,0,0,0,dh" style="display: flex; gap: 10px;">
+                  <img src="images/flag-south-korea_1f1f0-1f1f7.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/water-wave_1f30a.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Gwangalli Run
+                </h5>
+                <p>
+                  Run along the beautiful Gwangalli Beach. The course includes Samik Beach Town, which is also famous for its cherry blossoms!<br>아름다운 광안리 해변을 따라 뛰어보세요. 코스에 포함된 삼익비치타운은 벚꽃으로 유명하기도 합니다!
+                </p>
+                <div>
+                  <p>#Busan</p>
+                  <p>Total distance: 3.7km</p>
+                  <p>
+                    <span class="emoji">🅿️</span> 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Seoul">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://map.naver.com/p/directions/14142339.6157085,4515790.7443686,%EA%B5%BF%EB%9F%AC%EB%84%88%EC%BB%B4%ED%8D%BC%EB%8B%88,1305221227,PLACE_POI/14142339.6157085,4515790.7443686,%EA%B5%BF%EB%9F%AC%EB%84%88%EC%BB%B4%ED%8D%BC%EB%8B%88,1305221227,PLACE_POI/14141713.2654616,4515700.7727508,%EC%84%9C%EC%9A%B8%EC%88%B28%EB%B2%88%EC%B6%9C%EC%9E%85%EA%B5%AC,36520586,PLACE_POI:14141083.3418591,4514824.965856,%EC%84%9C%EC%9A%B8%EC%88%B212%EB%B2%88%EC%B6%9C%EC%9E%85%EA%B5%AC,36520589,PLACE_POI:14141564.0082884,4514638.9470557,%EC%84%9C%EC%9A%B8%EC%88%B213%EB%B2%88%EC%B6%9C%EC%9E%85%EA%B5%AC,36520588,PLACE_POI:14141713.2654616,4515700.7727508,%EC%84%9C%EC%9A%B8%EC%88%B28%EB%B2%88%EC%B6%9C%EC%9E%85%EA%B5%AC,36520586,PLACE_POI/walk?c=16.02,0,0,0,dh" style="display: flex; gap: 10px;">
+                  <img src="images/flag-south-korea_1f1f0-1f1f7.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/evergreen-tree_1f332.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Forest Run
+                </h5>
+                <p>
+                  Experience nature while running in 'Seoul Forest,' located in the heart of the city! The tunnels and bridges that appear along the way offer a fun and exciting experience!<br>도심 속에 자리한 '서울숲'에서 달리면서 자연을 느껴보세요! 중간 중간 등장하는 터널과 다리가 재밌는 경험을 선사합니다!
+                </p>
+                <div>
+                  <p>#Seoul</p>
+                  <p>Total distance: 3.8km</p>
+                  <p>
+                    <span class="emoji">🔄</span> 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Tokyo">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://www.google.com/maps/dir/Kikyomon+Police+Box/%E6%B1%9F%E6%88%B8%E5%9F%8E%E7%AF%89%E5%9F%8E%E3%81%AE%E7%A2%91/%EC%97%90%EB%8F%84+%EC%84%B1%ED%84%B0+%EC%84%9D%EB%B9%84/35.6833069,139.7596572/@35.685813,139.7455109,15.25z/data=!3m1!5s0x60188bfa1b129a8b:0x4ceb5b0578c99d20!4m21!4m20!1m5!1m1!1s0x60188be14634be45:0x4756b6d53502e3b2!2m2!1d139.7597924!2d35.6832045!1m5!1m1!1s0x60188c0e7125d39f:0x996f74257a79fb62!2m2!1d139.7579099!2d35.6903297!1m5!1m1!1s0x60188c76d740be67:0xcd829e19407c430!2m2!1d139.7450205!2d35.6816224!1m0!3e2?hl=ko&entry=ttu" style="display: flex; gap: 10px;">
+                  <img src="images/flag-japan_1f1ef-1f1f5.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/japanese-castle_1f3ef.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Palace Run
+                </h5>
+                <p>
+                  The Imperial Palace in Tokyo is the residence of the Emperor and boasts beautiful scenery! Additionally, it is a great place to run as 'ASICS RUN TOKYO' is located nearby, offering running shoe rentals and shower facilities!
+                  <br>도쿄의 고쿄(황궁)는 일왕의 거주지이며, 아름다운 경관을 자랑하기도 합니다! 또한 러닝화 대여와 샤워실 이용이 가능한 'ASICS RUN TOKYO'가 위치하여 달리기 좋습니다!
+                </p>
+                <div>
+                  <p>#Tokyo</p>
+                  <p>Total distance: 5.1km</p>
+                  <p>
+                    <span class="emoji">🔄</span> 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Seoul">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://map.naver.com/p/directions/14137775.8839403,4514621.4263609,%ED%95%9C%EA%B0%95%EC%A7%84%EC%97%AD%206%ED%98%B8%EC%84%A0,631,SUBWAY_STATION/14138203.4732364,4511349.9084233,%EA%B7%B8%EB%9D%BC%EC%8A%A4%EC%A0%95%EC%9B%90,1454615190,PLACE_POI/14137895.3520178,4514515.5587482,%ED%8C%8C%EB%9D%BC%EA%B3%A4%EC%95%84%ED%8C%8C%ED%8A%B8%EC%A0%95%EB%AC%B8,1871231849,PLACE_POI:14138384.9462703,4512982.5006492,%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%ED%95%9C%EB%82%A8%EB%8F%99%20782-1,,SIMPLE_POI:14137189.3638072,4511067.3251477,%EC%9E%A0%EC%88%98%EA%B5%90,18762982,PLACE_POI/walk?c=15.08,0,0,0,dh" style="display: flex; gap: 10px;">
+                  <img src="images/flag-south-korea_1f1f0-1f1f7.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/bridge-at-night_1f309.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Hangangjin Run
+                </h5>
+                <p>
+                  Start at Hangangjin Station, which has a baggage storage facility and convenient transportation. Run past the beautiful Jamsu Bridge and continue to Hangang Park!
+                  <br>짐보관소가 있고 교통이 편한 한강진역에서 시작해 아름다운 잠수교를 지나 한강 공원까지 달려보세요!
+                </p>
+                <div>
+                  <p>#Seoul</p>
+                  <p>Total distance: 5.1km</p>
+                  <p>
+                    <span class="emoji">🎢</span>
+                    <span class="emoji">🚦</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Seoul">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://map.naver.com/p/directions/14148495.4944938,4510034.2734332,%EC%84%9D%EC%B4%8C%ED%98%B8%EC%88%98(%EC%84%9C%ED%98%B8)%EC%88%98%EB%B3%80%EB%AC%B4%EB%8C%80,575046740,PLACE_POI/14148495.4944938,4510034.2734332,%EC%84%9D%EC%B4%8C%ED%98%B8%EC%88%98(%EC%84%9C%ED%98%B8)%EC%88%98%EB%B3%80%EB%AC%B4%EB%8C%80,575046740,PLACE_POI/14149073.7435887,4510428.1831633,%EC%84%9D%EC%B4%8C%ED%98%B8%EC%88%98(%EB%8F%99%ED%98%B8)%EC%9E%85%EA%B5%AC,21252020,PLACE_POI:14149500.5759123,4510667.8480661,%EC%84%9C%EC%9A%B8%20%EC%86%A1%ED%8C%8C%EA%B5%AC%20%EC%86%A1%ED%8C%8C%EB%82%98%EB%A3%A8%EA%B8%B8%20166,,SIMPLE_POI:14149140.0232136,4510673.0686063,Jbout%EC%9E%85%EA%B5%AC,1818397234,PLACE_POI:14149000.0612178,4510416.2968924,%EC%84%9D%EC%B4%8C%ED%98%B8%EC%88%98(%EC%84%9C%ED%98%B8)%EC%9E%85%EA%B5%AC,19473080,PLACE_POI/walk?c=15.00,0,0,0,dh" style="display: flex; gap: 10px;">
+                  <img src="images/flag-south-korea_1f1f0-1f1f7.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/duck_1f986.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Seokchon Run
+                </h5>
+                <p>
+                  Run around Seokchon Lake, which was famous for its giant rubber duck! Be careful during the cherry blossom season as it can get very crowded!
+                  <br>대형 러버덕으로 유명했던 석촌호수를 달립니다! 벚꽃시즌에는 사람이 많으니 조심하세요!
+                </p>
+                <div>
+                  <p>#Seoul</p>
+                  <p>Total distance: 2.6km</p>
+                  <p>
+                    <span class="emoji">🔄</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Seoul">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://map.naver.com/p/directions/14130320.2833083,4512725.5880879,%EC%97%AC%EC%9D%98%EB%8F%84%20%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90,13416869,PLACE_POI/14130320.2833083,4512725.5880879,%EC%97%AC%EC%9D%98%EB%8F%84%20%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90,13416869,PLACE_POI/14127803.4943368,4513833.4185076,%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%20%EC%97%AC%EC%9D%98%EB%8F%84%EB%8F%99%2081,,SIMPLE_POI:14127925.0997486,4512621.1573128,%EC%97%AC%EC%9D%98%EB%8F%84%20%EC%83%9B%EA%B0%95%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90%EB%AC%BC%EC%96%B5%EC%83%88%EB%A7%88%EB%8B%B9,35195922,PLACE_POI:14129162.8945626,4511503.2097072,%EC%97%AC%EC%9D%98%EB%8F%84%20%EC%83%9B%EA%B0%95%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90%EC%A1%B0%EB%A5%98%EA%B4%80%EC%B0%B0%EB%8C%80,35195914,PLACE_POI:14131084.1019944,4511549.8475382,%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%20%EC%97%AC%EC%9D%98%EB%8F%84%EB%8F%99%2070,,SIMPLE_POI/walk?c=14.30,0,0,0,dh" style="display: flex; gap: 10px;">
+                  <img src="images/flag-south-korea_1f1f0-1f1f7.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/cityscape-at-dusk_1f306.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  63buliding Run
+                </h5>
+                <p>
+                  Take a lap around Yeouido, home to the 63 Building, which was once the tallest building in Korea! Also, check out the 'Runner's Station' located inside Yeouinaru Station.
+                  <br>한때 한국에서 가장 높은 건물이었던 63빌딩이 있는 여의도를 한바퀴 돌아보세요!또한 여의나루역내에 위치한 '러너스테이션'도 이용해보세요!
+                </p>
+                <div>
+                  <p>#Seoul</p>
+                  <p>Total distance: 8km</p>
+                  <p>
+                    <span class="emoji">🔄</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Busan">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://map.naver.com/p/directions/14379110.7402347,4185554.0183953,%EB%B6%80%EC%82%B0%EC%97%91%EC%8A%A4%EB%8D%94%EC%8A%A4%EC%B9%B4%EC%9D%B4%EC%9E%85%EA%B5%AC,1934529681,PLACE_POI/14379110.7402347,4185554.0183953,%EB%B6%80%EC%82%B0%EC%97%91%EC%8A%A4%EB%8D%94%EC%8A%A4%EC%B9%B4%EC%9D%B4%EC%9E%85%EA%B5%AC,1934529681,PLACE_POI/14377384.6167861,4185175.4203732,%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8F%99%EB%B0%B1%EB%A1%9C%2067,,SIMPLE_POI:14377089.9162122,4185022.5463166,%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EB%8F%99%EB%B0%B1%EB%A1%9C%2086,,SIMPLE_POI:14377184.3341826,4184601.9625676,%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%9A%B0%EB%8F%99%20710-1,,SIMPLE_POI/walk?c=15.26,0,0,0,dh" style="display: flex; gap: 10px;">
+                  <img src="images/flag-south-korea_1f1f0-1f1f7.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/hibiscus_1f33a.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Dongbaek Run
+                </h5>
+                <p>
+                  Run across the beautiful beach to the island adorned with lovely camellia flowers!
+                  <br>아름다운 해변을 가로질러 동백꽃이 아름다운 섬으로 달려보세요!
+                </p>
+                <div>
+                  <p>#Busan</p>
+                  <p>Total distance: 4.3km</p>
+                  <p>
+                    <span class="emoji">🎢</span>
+                    <span class="emoji">🔄</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 post" data-hashtags="#Seoul">
+            <div class="box">
+              <div class="img-box">
+                <a href="https://map.naver.com/p/entry/place/18370520?c=17.26,0,0,0,dh" style="display: flex; gap: 10px;">
+                  <img src="images/flag-south-korea_1f1f0-1f1f7.png" alt="" style="width: 50px; height: auto;">
+                  <img src="images/stadium_1f3df-fe0f.png" alt="" style="width: 50px; height: auto;">
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Banpo Sports Complex Track
+                </h5>
+                <p>
+                  one lap: 400m(in lane3)
+                  <br>open: 06:00 close: 22:00
+                  <br>fee: free
+                </p>
+                <div>
+                  <p>#Seoul</p>
+                  <p>
+                    <span class="emoji">🅿️</span> 
+                    <span class="emoji">🔄</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end us section -->
+
+
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="info_items">
+        <!--
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-1">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                Location
+              </p>
+            </div>
+          </div>
+        </a>
+        -->
+        <a href="https://www.instagram.com/jae.tiger/">
+          <div class="item ">
+            <div class="img-box box-2">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                @jaetiger
+              </p>
+            </div>
+          </div>
+        </a>
+        <!--
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-3">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                demo@gmail.com
+              </p>
+            </div>
+          </div>
+        </a>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      &copy; 2020 All Rights Reserved. Design by
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const posts = document.querySelectorAll('.post');
+      const hashtags = new Set();
+  
+      posts.forEach(post => {
+        const tags = post.getAttribute('data-hashtags').split(' ');
+        tags.forEach(tag => hashtags.add(tag));
+      });
+  
+      const hashtagContainer = document.getElementById('hashtag-buttons-container');
+  
+      // #All 버튼 추가
+      const allButton = document.createElement('button');
+      allButton.className = 'btn custom-hashtag-btn';
+      allButton.textContent = '#All';
+      allButton.setAttribute('data-hashtag', '#All');
+      hashtagContainer.appendChild(allButton);
+  
+      allButton.addEventListener('click', () => {
+        posts.forEach(post => post.style.display = 'block');
+      });
+  
+      hashtags.forEach(hashtag => {
+        const button = document.createElement('button');
+        button.className = 'btn custom-hashtag-btn';
+        button.textContent = hashtag;
+        button.setAttribute('data-hashtag', hashtag);
+        hashtagContainer.appendChild(button);
+      });
+  
+      document.querySelectorAll('.custom-hashtag-btn').forEach(button => {
+        button.addEventListener('click', () => {
+          const hashtag = button.getAttribute('data-hashtag');
+          if (hashtag === '#All') {
+            posts.forEach(post => post.style.display = 'block');
+          } else {
+            filterPosts(hashtag);
+          }
+        });
+      });
+  
+      document.getElementById('search-box').addEventListener('input', (event) => {
+        const input = event.target.value.trim();
+        filterPosts(input);
+      });
+  
+      function filterPosts(input) {
+        posts.forEach(post => {
+          const postHashtags = post.getAttribute('data-hashtags').toLowerCase();
+          if (postHashtags.includes(input.toLowerCase())) {
+            post.style.display = 'block';
+          } else {
+            post.style.display = 'none';
+          }
+        });
+      }
+    });
+  </script>
+  
+
+</body>
+
+</html>
